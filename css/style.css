@@ -1,0 +1,61 @@
+:root {
+    --BLACK: #000000;
+    --WHITE: #ffffff;
+    --BLUE: #0000ff;
+    --GRAY: #808080;
+}
+
+/*
+    'Roboto'
+*/
+
+.body {
+    margin: 0;
+}
+
+/* Header section */
+
+.header-container {
+    background-color: var(--BLACK);
+    
+}
+
+.header-nav {
+
+}
+
+.header-logo {
+    font-family: 'Roboto', sans-serif;
+    color: var(--WHITE);
+    text-decoration: none;
+}
+
+.header-logo-span {
+    font-family: 'Roboto', sans-serif; 
+    color: var(--GRAY);
+    text-decoration: none;
+}
+
+.header-list {
+
+}
+
+.header-item {
+
+}
+
+.header-block {
+
+}
+
+.header-item-logo {
+
+}
+
+.header-text {
+    color:#0000ff
+}
+
+.header-block-text {
+ 
+}
