@@ -3,10 +3,15 @@
     --WHITE: #ffffff;
     --BLUE: #0000ff;
     --GRAY: #808080;
+    --RED: #ff0000;
 }
 
 /*
     'Roboto'
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
 */
 
 .body {
@@ -16,8 +21,7 @@
 /* Header section */
 
 .header-container {
-    background-color: var(--BLACK);
-    
+    background-color: var(--BLACK);    
 }
 
 .header-nav {
@@ -28,6 +32,7 @@
     font-family: 'Roboto', sans-serif;
     color: var(--WHITE);
     text-decoration: none;
+    margin-left: 50%;
 }
 
 .header-logo-span {
@@ -49,13 +54,21 @@
 }
 
 .header-item-logo {
-
+    text-decoration: none;
+    
 }
 
 .header-text {
-    color:#0000ff
+    color:#0000ff;
+    text-decoration: none;
 }
 
 .header-block-text {
- 
+    color: var(--WHITE);
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+}
+
+.header-block-text:hover {
+    color:var(--RED);
 }
